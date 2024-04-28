@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Custom Warnings",
+		"description": "Custom Warnings Behavior Pack",
+		"uuid": "1d7949c2-ef74-464a-9e16-d5ec4c0a60bb",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "ce33d111-bb4f-4a73-9fd5-fa5a7379f578",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"uuid": "4a81204e-de51-11ee-bd30-1b2ec48d2975",
+			"version": [1, 0, 0],
+			"entry": "scripts/script.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0"
+		}
+	]
+}
